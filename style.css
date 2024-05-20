@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: 'Oswald', sans-serif;
+}
+
+.nav-hed{
+	display: flex;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 50px;
+}
+
+.nav-hed li a{
+	color: #fff;
+}
+
+.bi-list{
+    color: #fff;
+    font-size: 30px !important ;
+}
+
+.logo{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+	padding-left: 70px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+.logo span{
+	color: rgb(189, 10, 10);
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: rgb(189, 10, 10);
+}
+
+#home{
+	width: 100%;
+    height: 100vh;
+    background: url(./images/home.jpg) center no-repeat;
+    background-size: cover;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.home-title{
+	color: #fff;
+	font-size: 50px;
+	cursor: pointer;
+	line-height: 80px;
+}
+
+.home-title span{
+	color: rgb(189, 10, 10);
+}
+
+.card{
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.card-body{
+	background-color: rgb(6, 6, 6);
+	color: #fff;
+}
+
+.spesfic{
+	background-color: rgb(189, 10, 10);
+}
+
+#services{
+	background-color: rgb(189, 10, 10);
+}
+
+.btn {
+	padding: 20px;
+	width: 120px;
+}
+
+
+  .accordion .item {
+	  border: none;
+	  margin-bottom: 10px;
+	  color: #fff;
+  }
+  .t-p{
+	color: rgb(193 206 216);
+	padding: 20px 30px 10px 10px;
+	background: #0a0a0a;
+  }
+  .accordion .item .item-header h2 button.btn.btn-link {
+	  background: #930b12;
+	  color: white;
+	  border-radius: 0px;
+	  font-family: 'Poppins';
+	  font-size: 16px;
+	  font-weight: 400;
+	  line-height: 2.5;
+	  text-decoration: none;
+  }
+  .accordion .item .item-header {
+	  border-bottom: none;
+	  background: transparent;
+	  padding: 0px;
+	  margin: 1px;
+  }
+  
+  .accordion .item .item-header h2 button {
+	  color: white;
+	  font-size: 20px;
+	  padding: 15px;
+	  display: block;
+	  width: 100%;
+	  text-align: left;
+  }
+  
+  .accordion .item .item-header h2 i {
+	  float: right;
+	  font-size: 30px;
+	  color: #fff;
+	  width: 60px;
+	  height: 40px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  border-radius: 5px;
+  }
+  
+  button.btn.btn-link.collapsed i {
+	  transform: rotate(0deg);
+  }
+  
+  button.btn.btn-link i {
+	  transform: rotate(180deg);
+	  transition: 0.5s;
+  }
+
+  #schduil{
+	background-color: #0a0a0a;
+	color: #fff;
+  }
+
+  .pt-4 img{
+	opacity: 0.2;
+	transition: .3s;
+  }
+
+  .pt-4 img:hover{
+	opacity: 1;
+  }
+
+  .footer .footer-socila-icon a {
+	width: 30px;
+	height: 30px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: #F84E77;
+	color: #ffffff;
+	border-radius: 50%;
+	margin-right: 8px;
+	font-size: 15px;
+}
+
+.footer .footer-socila-icon a:hover {
+	background: #1baaa0;
+}
+
+.footer .footer-links {
+	margin: 0;
+}
+
+.footer .footer-links li+li {
+	padding-top: 10px;
+}
+
+.footer .footer-links li a {
+	position: relative;
+}
+
+.footer .footer-links li a:after {
+	content: "";
+	position: absolute;
+	width: 0px;
+	left: auto;
+	right: 0;
+	bottom: 0;
+	height: 1px;
+	transition: ease all 0.35s;
+	background: #F84E77;
+}
+
+.footer .footer-links li a:hover:after {
+	width: 100%;
+	left: 0;
+	right: auto;
+}
+
+.footer .footer-top {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.footer .footer-top h5,
+.footer .footer-top .h5 {
+	position: relative;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+	.footer .footer-top {
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.footer .footer-top {
+		padding-top: 3rem;
+		padding-bottom: 2rem;
+	}
+}
+
+.footer .footer-border-top {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .footer-border-top.dark {
+	border-top: 1px solid rgba(16, 16, 16, 0.1);
+}
+
+.footer .footer-border-bottom {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .footer-border-bottom.dark {
+	border-bottom: 1px solid rgba(16, 16, 16, 0.1);
+}
+
+.bg-dark-gradient {
+	background: linear-gradient( 180deg, #101010 50%, black 100%) repeat-x !important;
+}
+
+.white-link a {
+	color: rgba(255, 255, 255, 0.65);
+}
+
+a {
+	text-decoration: none
+}
+
+
+
+.text-white{
+color:#fff !important;
+}
+ 
+
+ 
+
+  
